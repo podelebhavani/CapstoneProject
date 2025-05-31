@@ -18,34 +18,3 @@ Source: Kaggle - RetailRocket E-Commerce Dataset
 
 File Used: events.csv
 Size: ~94.2 MB
-
-Fields: 
-timestamp: Event timestamp (Unix).
-
-visitorid: Anonymized user ID.
-
-event: Interaction type (view, addtocart, transaction).
-
-itemid: Item ID.
-
-transactionid: Transaction ID (NaN for non-purchases).
-
-Records: ~2.75 million interactions.
-
-Download Instructions:
-Visit Kaggle link.
-
-Sign in or create a Kaggle account.
-
-Download events.csv (within dataset zip).
-
-For Azure ML Studio:
-Upload to default datastore: Data > Datastores > Default Datastore > Upload.
-
-Place in UI/2025-05-31_184443_UTC/events.csv.
-
-For local use:
-Save events.csv in your project directory.
-
-Update code to point to the file path.
-
